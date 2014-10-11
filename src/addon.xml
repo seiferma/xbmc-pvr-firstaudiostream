@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.firstaudostream" name="First Audio Stream" version="1.0.0" provider-name="ipdmoney">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary>Autoselection of first audio stream.</summary>
+		<description>This addon switches the audio stream to the first one when using LiveTV.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
